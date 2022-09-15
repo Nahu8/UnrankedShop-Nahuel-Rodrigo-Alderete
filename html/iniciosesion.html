@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Iniciar Sesión</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Macondo&family=Patrick+Hand&family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="../img/icon/poro.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src=" https://unpkg.com/sweetalert/dist/sweetalert.min.js "> </script>
+</head>
+  <body>
+    <form>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Correo electrónico</label>
+          <input type="email" class="form-control" id="usermail" aria-describedby="emailHelp" placeholder="Correo electrónico">
+          <small id="emailHelp" class="form-text text-muted">Nunca compartiremos su correo electrónico con nadie más.</small>
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Contraseña</label>
+          <input type="password" class="form-control" id="userpass" placeholder="Contraseña">
+        </div>
+        <div class="form-group form-check">
+          <input type="checkbox" class="form-check-input" id="remmuser">
+          <label class="form-check-label" for="exampleCheck1">Recuerdame</label>
+        </div>
+        <button type="submit" id="btnLogin" class="btn btn-primary" onclick="loguear()">Iniciar sesión</button>
+      </form>
+    <script src="../js/login.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  </body>
+</html>

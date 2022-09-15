@@ -1,0 +1,190 @@
+/*Index-Tienda*/
+.bg-titulo{
+    color: white;
+    text-align: center;
+    font-family: 'Macondo', cursive;    
+}
+h1{
+    text-align: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+h3{
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+h5{
+    font-size: 1.5rem;
+    color: #000000;
+}
+p{
+    text-align: center;
+    align-items: center;
+    color: rgb(139, 107, 107);
+}
+nav{
+    height: 20%;
+    font-size: 1.5rem;
+    position: sticky;
+    top: 5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav.navbar {
+    background-color: #792c2c;
+}
+.shopping-cart{
+    color: rgb(28, 143, 28);
+}
+.item-price{
+    color: white;
+}
+.cart-finish{
+    color: black;
+}
+
+footer{
+    background-color: #792c2c;
+    color:#000000;
+}
+.text-uppercase{
+    text-align: center;
+}
+.text-reset{    
+    text-decoration: none;
+}
+.entrar{
+    text-decoration: none;
+}
+/*Login*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Macondo', cursive;
+}
+
+body{
+    background-image: url(../img/bg/bg-arcane.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+main{
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.container{
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    position: relative;
+}
+
+.back-box{
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: rgba(241, 2, 22, 0.5);
+
+}
+
+.back-box div{
+    margin: 100px 40px;
+    color: rgb(0, 0, 0);
+    transition: all 500ms;
+}
+
+
+.back-box div p,
+.back-box button{
+    margin-top: 30px;
+}
+
+.back-box div h3{
+    font-weight: 400;
+    font-size: 26px;
+}
+
+.back-box div p{
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.back-box button{
+    padding: 10px 40px;
+    border: 2px solid rgb(151, 9, 9);
+    font-size: 14px;
+    background: transparent;
+    font-weight: 600;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    outline: none;
+    transition: all 300ms;
+}
+
+.back-box button:hover{
+    background: rgb(194, 17, 17);
+    color: #a72424;
+}
+.login-index{
+    box-shadow: 8px 8px 8px #000000;
+}
+
+/*Formularios*/
+
+.form-group {
+    width: 200px;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    width: 20%;
+  }
+
+  .btn-primary{
+    text-align: center;
+    margin-left: 47%;
+  }
+
+  .form-check-label{
+    color: white;
+  }
+
+  .volver-home{
+    color: aliceblue;
+    text-align: left;
+  }
+
+/*ERROR*/
+.porito-error{
+    height: 30%;
+    width: 30%;
+    margin-left: 33%;
+}
+.error{
+    text-align: center;
+    margin-top: 10%;
+}
+.error-sesion{
+    color: aliceblue;
+    margin-left: 43%;
+    text-decoration: none;
+    font-size: 2em;
+    border-color: #792c2c;
+    text-shadow:8px 8px 8px #a72424;
+}
+.item-image{
+    margin-left: 15%;
+}
